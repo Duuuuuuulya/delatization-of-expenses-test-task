@@ -1,0 +1,17 @@
+.chart-wrapper {
+  height: 400px;
+  padding-left: 90px;
+  display: flex;
+  padding-right: 90px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.bar-chart {
+  width: 80% !important;
+}
+
+.recharts-default-tooltip{
+  display: none;
+}
+

@@ -1,0 +1,8 @@
+.setting-button {
+  width: 30px;
+  height: 30px;
+}
+
+.setting-button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,110 @@
+
+.header__box {
+  height: 51px;
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.button_area {
+  display: flex;
+  color:white;
+  width: 800px;
+  justify-content: space-between;
+  padding-left: 33px;
+
+}
+
+.settingPic {
+  width: 100%;
+  height: 100%;
+}
+
+.header_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+  width: 100px;
+  font-family: 'Poppins';
+}
+
+.header_button:hover {
+  cursor: pointer;
+  position: relative;
+  margin-top: 15px;
+  font-size: 14px;
+  background-color:#3e3e3e;
+  width: 100px;
+  height: 22px;
+  color:white;
+  border-radius: 10px;
+  border: none;
+}
+
+.header_button_active {
+  position: relative;
+  margin-top: 15px;
+  font-size: 14px;
+  background-color:#3e3e3e;
+  width: 100px;
+  height: 22px;
+  color:white;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Poppins';
+}
+
+
+.dashboard_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+}
+
+.transactions_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+}
+
+.transfer_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+}
+
+.cards_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+}
+
+.account_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+}
+
+.setting_button {
+  color:white;
+  font-size: 14px;
+  background:none;
+  border: none;
+  margin-top: 5px;
+  margin-left: 250px;
+}
+
+/* @keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.setting_button:hover {
+  animation: spin 0.9s linear 0s;
+} */

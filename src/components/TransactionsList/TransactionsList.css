@@ -1,0 +1,35 @@
+.table-cell {
+  display: flex;
+}
+
+.table-cell span {
+  align-self: center;
+  padding-left: 10px;
+  color: #4a4b64 !important;
+}
+
+.table-card {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.table-cell-date {
+  text-align: start;
+}
+
+.table-row__row, .table-cell__transaction,
+.table-cell__date, .table-cell__amount,
+.card-date {
+  font-family: "Poppins" !important;
+  color: #696969 !important;
+}
+
+.card-name {
+  font-family: "Poppins" !important;
+  color: #4a4b64 !important;
+}
+
+.table-cell__amount-change {
+  color: rgb(26, 110, 26) !important;
+  font-family: "Poppins" !important;
+}

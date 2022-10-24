@@ -1,0 +1,123 @@
+.accountBalance_box {
+  margin: 49px 50px 0px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.accountBalance_info{
+  display: flex;
+}
+
+.accountBalance_title {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.accountBalance_chooseCurrency .control {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 8px;
+  width: 85px;
+  height: 26px;
+  border: 1px solid #e4e7eb;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.accountBalance_buttonBlock {
+  display: flex;
+  gap: 10px;
+  margin-right: -9px;
+  margin-top: 3px;
+}
+.accountBalance_addMoney {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 105px;
+  height: 27px;
+}
+
+.accountBalance_addMoney span {
+  font-size: 13px;
+  margin-left: 1px;
+}
+
+.accountBalance_sendMoney {
+  background-color: #24a272;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-left: 10px;
+  width: 105px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.accountBalance_sendMoney span {
+  color: white;
+  font-size: 13px;
+}
+
+.accountBalance_value {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 56px;
+  font-size: 26px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.accountBalance_buttonBlock .add_button {
+  color: black;
+  border-color: lightgray;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  border-radius: 10px;
+}
+
+.accountBalance_buttonBlock .send_button {
+  color: white;
+  border-color: #1ea579;
+  background-color: #1ea579;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  border-radius: 10px;
+}
+
+.accountBalance_buttonBlock .add_button:hover {
+  border-color: black;
+  background-color: lightgray;
+}
+
+.accountBalance_buttonBlock .send_button:hover {
+  border-color: green;
+  background-color: #1ea579;
+}
+
+.select__drop-down-indicator {
+  position: absolute;
+  right: 28px;
+  top: 7px;
+}
+
+.select__value-container {
+  position: absolute;
+  left: 10px;
+  top: 1px
+}
+
+.canada-flag {
+  width: 40px;
+  height: 40px;
+}
+
+.canada-flag-placeholder {
+  width: 40px;
+  height: 40px;
+}

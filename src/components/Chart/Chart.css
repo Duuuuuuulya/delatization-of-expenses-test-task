@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 57px;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-right: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.header_Info{
+  display: flex;
+  flex-direction: row;
+}
+
+.info_block {
+  display: flex;
+}
+
+.button_block {
+  margin-right: 30px;
+  height: 23px;
+  margin-bottom: 10px;
+}
+
+.button_block Button {
+  color: #4a4b64;
+  border-color: gray;
+  text-transform: lowercase;
+  font-family: 'Poppins';
+}
+
+.button_block Button:hover {
+  color: #4a4b64;
+  border-color: black;
+}
+
+.button_block .year_active,
+.button_block .months_active,
+.button_block .week_active {
+  color: black;
+  background-color: rgb(231, 227, 227);
+  border-color: black;
+  text-transform: lowercase;
+}
+
+.circle_Wires{
+  margin-left: 25px;
+  margin-top: 3px;
+  margin-right: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #d4f8e0
+}
+
+.circle_Payments{
+  margin-left: 25px;
+  margin-top: 3px;
+  margin-right: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #abf0c5
+}
+
+.circle_EFTs{
+  margin-left: 25px;
+  margin-top: 3px;
+  margin-right: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #74e3a4
+}
