@@ -34,7 +34,7 @@ export const AccountBalance = () => {
   };
 
   const colorStyles = {
-    control: styles => ({ ...styles, border: '1px solid #e4e7eb', borderRadius: '10px', marginLeft: '8px', height: '30px', width: '60px' }),
+    control: styles => ({ ...styles, border: '1px solid #e4e7eb', borderRadius: '10px', marginLeft: '8px', height: '20px', width: '60px' }),
     menu: styles => ({ ...styles, textAlign: 'center' }),
     input: styles => ({ ...styles, position: 'absolute', width: '40px', height: '40px', color: 'transparent',
     textShadow: '0 0 0 black' }),

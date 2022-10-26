@@ -5,12 +5,13 @@
 .table-cell span {
   align-self: center;
   padding-left: 10px;
-  color: #4a4b64 !important;
+  color: #000000 !important;
 }
 
 .table-card {
   display: flex;
   justify-content: flex-start;
+  
 }
 
 .table-cell-date {
@@ -26,10 +27,24 @@
 
 .card-name {
   font-family: "Poppins" !important;
-  color: #4a4b64 !important;
+  color: #000000 !important;
 }
 
 .table-cell__amount-change {
   color: rgb(26, 110, 26) !important;
   font-family: "Poppins" !important;
 }
+
+.img-border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  height: 29px;
+  margin-right: 8px;
+  margin-top: 5px;
+  width: 50px;
+  overflow: hidden;
+}
+

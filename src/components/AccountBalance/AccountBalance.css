@@ -1,10 +1,8 @@
 .accountBalance_box {
-  margin: 49px 50px 0px 60px;
+  margin: 49px 0px 0px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
 .accountBalance_info{
@@ -33,7 +31,6 @@
 .accountBalance_buttonBlock {
   display: flex;
   gap: 10px;
-  margin-right: -9px;
   margin-top: 3px;
 }
 .accountBalance_addMoney {
@@ -67,10 +64,9 @@
 .accountBalance_value {
   font-weight: bold;
   margin-top: 10px;
-  margin-left: 56px;
+  
   font-size: 26px;
-  padding-left: 200px;
-  padding-right: 200px;
+  
 }
 
 .accountBalance_buttonBlock .add_button {

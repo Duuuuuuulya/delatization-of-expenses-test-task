@@ -1,11 +1,9 @@
 .history__box {
-    margin: 30px 60px;
+    margin: 30px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .history__content {
@@ -53,5 +51,28 @@
 
 .header-button__select-date {
     text-transform: capitalize !important;
+    color: black!important;
+    border-color: rgb(221, 221, 221)!important;
     font-family: 'Poppins' !important;
 }
+
+.header-button__select-date_solo{
+    text-transform: capitalize !important;
+    border-color: rgb(221, 221, 221)!important;
+    border-radius: 10px !important;
+    color: gray !important;
+}
+
+.header-button__select-date_active {
+    background-color: #edeef1 !important;
+    border-color: rgb(221, 221, 221)!important;
+    font-size: 13px !important;
+    font-family: 'Poppins' !important;
+    color: black!important;
+    text-transform: capitalize !important;
+}
+/* 
+.header-button__select-date .transfer {
+    background-color: #4a4b64!important;
+} */
+

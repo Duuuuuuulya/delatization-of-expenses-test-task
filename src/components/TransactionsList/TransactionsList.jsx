@@ -108,7 +108,7 @@ const TransactionsList = () => {
             >
               <TableCell component="th" scope="row" width={'60%'}>
                 <div className="table-cell">
-                  <Avatar src={row.transactionImage ? row.transactionImage : row.transaction} alt={row.transaction} sx={{ width: 50, height: 50, bgcolor: 'white', color: '#585454' }}/>
+                  <Avatar src={row.transactionImage ? row.transactionImage : row.transaction} alt={row.transaction} sx={{ width: 50, height: 50, bgcolor: '#edeef1', color: '#585454' }}/>
                   <span className='table-cell__transaction'>{row.transaction}</span>
                 </div>
               </TableCell>
@@ -116,7 +116,9 @@ const TransactionsList = () => {
               <TableCell className='table-cell__date' align="start">{row.date}</TableCell>
               <TableCell align="start">
                 <div className="table-card">
-                  <img src={row.cardImage} alt={row.transaction} height={48} width={80} />
+                  <div className="img-border">
+                  <img className="card-img" src={row.cardImage} alt={row.transaction} height={29} width={60}  />
+                  </div>
                   <div>
                     <div className="card-name">{row.cardName}</div>
                     <div className="card-date">{row.cardDate}</div>

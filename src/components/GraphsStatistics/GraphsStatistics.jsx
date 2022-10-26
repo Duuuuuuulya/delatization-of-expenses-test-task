@@ -91,9 +91,8 @@ export const GraphsStatistics = () => {
         <BarChart
           data={data}
           barSize={30}
-
         >
-          <YAxis axisLine={false} tickLine={{stroke: 'rgb(221 224 255)', width: '100%'}} tickSize={1400} mirror={true} tick={{ display: 'none'}}  />
+          <YAxis axisLine={false} tickLine={{stroke: 'rgb(221 224 255)', width: '100%'}} tickSize={5000} mirror={true} tick={{ display: 'none'}}  />
           <XAxis tickLine={false} dataKey="name" axisLine={false} />
           <Bar dataKey="efts" stackId="a" fill="#74e3a4" radius={[5, 5, 0, 0]} />
           <Bar dataKey="cp" stackId="a" fill="#abf0c5" radius={[5, 5, 0, 0]} />
